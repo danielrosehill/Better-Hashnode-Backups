@@ -13,7 +13,7 @@ The script will copy your Hashnode blog posts over to a target directory and pul
 - For every post a folder is create (1) 
 - Images is created as a subfolder. 
 - The extracted images are nested within it.
-- The post itself is written to `index.md`
+- The post itself is written to `index.md`So I do not have that flag. 
 
 ![alt text](images/folder-tree.png)
 
@@ -24,6 +24,14 @@ The script will copy your Hashnode blog posts over to a target directory and pul
 - Replace it with your values. 
 
 You'll need your Hashnode token.
+
+## Suggested Usage
+
+One possible backup strategy to make sure that your Hashnode posts are being backed up regularly:
+
+- Clone this repository onto your server. 
+- Edit values as above
+- Run the Python program as a Cron job according to your desired backup frequency. 
 
 ## Use Case Statement
 
