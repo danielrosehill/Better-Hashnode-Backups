@@ -8,6 +8,8 @@ I "wrote" this backup script using Claude Sonnet 3.5 and after a few iterations 
 
 The script will copy your Hashnode blog posts over to a target directory and pulls the images out of the CDN (to prevent it attempting to copy SVGs, I added some specificity for the type of file it would regard as an image; If you use SVGs commonly for images, then modify the script.).
 
+![alt text](images/folder-tree.png)
+
 ## How To Run
 
 - Copy the script (`backup-script.py`)
